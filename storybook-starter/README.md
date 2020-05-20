@@ -1,3 +1,9 @@
+# Test
+
+1. copy docs/components into stories
+2. cd stories && find . -name "\*.js" -type f -delete && find . -name "\*.md" -type f -delete
+4. yarn codeshift
+
 # TSDX React User Guide
 
 Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.

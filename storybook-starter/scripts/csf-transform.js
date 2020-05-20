@@ -22,7 +22,7 @@ module.exports = (fileInfo, api) => {
         j.objectExpression([
           j.property(
             'init',
-            j.identifier('name'),
+            j.identifier('title'),
             j.literal(`Material-ui|${component}|${test}`)
           ),
         ])

@@ -1,5 +1,5 @@
 module.exports = {
-  stories: ['../stories/**/*.(ts|tsx)'], // quick fix as i was to lazy to create a rename script
+  stories: ['../stories/components/**/*.(ts|tsx)'], // quick fix as i was to lazy to create a rename script
   addons: [
     '@storybook/addon-actions',
     '@storybook/addon-links',
