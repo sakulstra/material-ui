@@ -11,7 +11,7 @@
     "node": ">=10"
   },
   "scripts": {
-    "codeshift": "",
+    "codeshift": "jscodeshift -t ./scripts/csf-transform.js --extensions=ts,tsx --parser=tsx ./stories/components/**/*.tsx",
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test --passWithNoTests",
