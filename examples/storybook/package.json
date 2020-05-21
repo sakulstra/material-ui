@@ -1,0 +1,27 @@
+{
+  "name": "storybook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "sakulstra",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.9.14",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.53",
+    "@storybook/addon-docs": "^5.3.18",
+    "material-table": "^1.57.2",
+    "notistack": "^0.9.16"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@storybook/addon-actions": "^6.0.0-beta.12",
+    "@storybook/addon-links": "^6.0.0-beta.12",
+    "@storybook/addons": "^6.0.0-beta.12",
+    "@storybook/react": "^6.0.0-beta.12",
+    "babel-loader": "^8.1.0"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
